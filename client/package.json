@@ -1,0 +1,32 @@
+{
+  "name": "helloworldwebappclient",
+  "version": "1.0.0",
+  "description": "Hello World Web App Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "postinstall": "npm run build"
+  },
+  "author": "Daniel Gadd",
+  "license": "NONE",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {},
+  "proxy": "http://localhost:3000",
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
+  }
+}

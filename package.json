@@ -1,0 +1,13 @@
+{
+  "name": "helloworld",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "description": "Hello World Web App",
+  "author": "Daniel Gadd",
+  "license": "NONE",
+  "scripts": {
+    "postinstall": "yarn --cwd ./server && yarn --cwd ./client",
+    "start": "yarn --cwd ./server start"
+  },
+  "dependencies": {}
+}

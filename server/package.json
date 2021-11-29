@@ -1,0 +1,16 @@
+{
+  "name": "helloworldwebappserver",
+  "version": "1.0.0",
+  "description": "Hello World Web App Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {},
+  "author": "Daniel Gadd",
+  "license": "NONE",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

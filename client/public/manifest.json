@@ -1,0 +1,11 @@
+{
+  "short_name": "helloworld",
+  "name": "Hello World",
+  "description": "Hello World Web App",
+  "start_url": ".",
+  "background_color": "#A7BE8A",
+  "theme_color": "#B2C693",
+  "display": "minimal-ui",
+  "orientation": "primary",
+  "scope": "/"
+}
